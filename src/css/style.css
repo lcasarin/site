@@ -1,0 +1,25 @@
+body {
+  overflow-x: hidden; }
+
+.navbar .nav-link {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+#galeria .fa {
+  font-size: 20px; }
+
+#galeria img {
+  align-items: center;
+  border: 1px #288893 solid; }
+
+footer#main-footer {
+  background: #000;
+  color: #fff; }
+
+#share .fa {
+  font-size: 25px; }

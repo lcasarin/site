@@ -1,9 +1,5 @@
 //Lucas Casarin Marquezini
-$icon-size:55px;
 $dark-overlay:rgba(0,0,0,0.7);
-body{
-  overflow-x: hidden;
-}
 .navbar{
   .nav-link{
     font-size: 15px;
@@ -15,6 +11,32 @@ body{
     border-left:#444 3px solid;
   }
 }
+//Achei o erro depois de 1 hora e meia em cima disso
+#navbar{
+    .filmes-cor{
+      background:000;
+    }
+    .dropdown-menu{
+      background:#000;
+    }
+    .dropdown-item{
+      color: #fff;
+      background: #000;
+    }
+    .dropdown-item:hover{
+      color: #fff;
+      background: #288893;
+    }
+
+    .brand-margin{
+      margin-left: -475px;
+    }
+    .nav-margin{
+      margin-right: -450px;
+    }
+
+
+}
 #galeria{
   .fa{
     font-size:20px;
@@ -22,6 +44,20 @@ body{
   img{
     align-items: center;
     border: 1px #288893 solid;
+  }
+  .post-meta{
+    font-size: 13px;
+  }
+  .post-cats{
+    font-size: 13px;
+  }
+  .link-title{
+    text-decoration: none;
+    color: #288893;
+  }
+  .link-title:hover{
+    text-decoration: none;
+    color: #ff0054;
   }
 }
 footer#main-footer{

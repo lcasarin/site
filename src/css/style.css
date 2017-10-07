@@ -1,6 +1,3 @@
-body {
-  overflow-x: hidden; }
-
 .navbar .nav-link {
   font-size: 15px;
   text-transform: uppercase;
@@ -10,12 +7,46 @@ body {
 .navbar .nav-item.active {
   border-left: #444 3px solid; }
 
+#navbar .filmes-cor {
+  background: 000; }
+
+#navbar .dropdown-menu {
+  background: #000; }
+
+#navbar .dropdown-item {
+  color: #fff;
+  background: #000; }
+
+#navbar .dropdown-item:hover {
+  color: #fff;
+  background: #288893; }
+
+#navbar .brand-margin {
+  margin-left: -475px; }
+
+#navbar .nav-margin {
+  margin-right: -450px; }
+
 #galeria .fa {
   font-size: 20px; }
 
 #galeria img {
   align-items: center;
   border: 1px #288893 solid; }
+
+#galeria .post-meta {
+  font-size: 13px; }
+
+#galeria .post-cats {
+  font-size: 13px; }
+
+#galeria .link-title {
+  text-decoration: none;
+  color: #288893; }
+
+#galeria .link-title:hover {
+  text-decoration: none;
+  color: #ff0054; }
 
 footer#main-footer {
   background: #000;
